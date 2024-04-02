@@ -2,7 +2,7 @@
 title: The future of Web Acceleration and Security - SmartNICs
 description: What are SmartNICs and why do we need them?
 date: 2022-01-27 01:21:00+0530
-image: header.gif
+image: header.jpg
 categories:
     - Networks
     - NextGen Tech
@@ -32,7 +32,7 @@ A real-life example might be a tiny overcrowded room where everyone is trying to
 
 In reality, 2.4GHz ranges from 2,400 to 2,483.5 Mhz (approx, actual values depend on the country you live in). On the other hand, ranges from 5.15GHz to 5.35GHz and 5.725GHz to 5.85GHz. As you quickly notice, the total bandwidth for 2.4GHz is ~80MHz, while 5GHz is ~325MHz, about 4 times higher! But the problem with a higher frequency is that the signal strength drops more quickly (called signal attenuation), resulting in less range.
 
-![2.4GHz vs 5GHz](24g-vs-5g.gif)
+![2.4GHz vs 5GHz](24g-vs-5g.png)
 
 
 As you can see in the screen recording above, there are very few devices talking at 5GHz (because of the quick signal attenuation, and none of them overlaps. But the story is very different when we look at 2.4GHz (end of the recording).

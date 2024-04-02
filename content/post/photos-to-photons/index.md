@@ -2,7 +2,7 @@
 title: Photos to Photons
 description: How is an image displayed on your screen or printed?
 date: 2021-11-11 09:19:00+0530
-image: header.gif
+image: timelapse.jpg
 categories:
     - How Stuff Works
 tags:
@@ -28,7 +28,7 @@ The rest of us made our way through to another buffer memory called the video bu
 
 ## The timelapse
 
-![Northern Lights Timelapse](northern-lights-timelapse.gif)
+![Northern Lights Timelapse](timelapse.jpg)
 We were a part of a series of photos taken at constant intervals to make what humans call a timelapse. It is funny for us as most humans consider time to be absolute, and that partially comes from the speed at which we travel in space! But in reality, time varies relative to your speed versus mine. But I am not here to teach you advanced Physics. And anyway, you would be bored before I even begin.
 
 The owners were using professional-grade software to colour correct us and create a timelapse out of us. Unfortunately, I do not remember the name of the software, but I do remember it was something that fell into the category of a non-linear video editor (NLVE). The owner placed us all side by side on a timeline and told this computer to run its gobbledygook and play each of us for precisely 1/30 seconds. Let us take a slight detour to explain human videos.
