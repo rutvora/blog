@@ -2,9 +2,10 @@
 title: A beginner's introduction to WebAssembly
 description: WebAssembly is something that allows you to write code in multiple languages, and import them in several others, all while providing the speed of a native binary!
 date: 2021-10-13 04:54:00+0530
-image: wasm-logo.png
+image: wasm-logo.svg
 categories:
     - Hello World
+    - Overview
 tags:
     - hello-world
     - overview
@@ -13,7 +14,7 @@ math: true
 toc: true
 ---
 
-# Motivation
+## Motivation
 
 So you know how one day you are writing "Hello World" in C, and the next day you are figuring out which pointer/reference goes where in a thousand line code? It's weird!
 
@@ -30,14 +31,15 @@ I personally am a fan of Go! And Dart/Flutter and do not like scripting language
 WebAssembly tries to provide a solution to all the problems stated above.
 
 In short, WebAssembly provides these 3 significant features:
+
 1. Separate Code memory from runtime memory
 2. Explicit permission for each module
 3. Cross-language module support
 
 Alternative video explanation:
-{{Of07IsplHPY}}
+{{< youtube Of07IsplHPY >}}
 
-# History
+## History
 
 But that wasn't how it all began. WASM began with the idea that Javascript, the dominant language for the web, was inefficient and had security problems. The inefficiency for JS comes from the fact that it is an interpreted language.
 
@@ -61,7 +63,7 @@ And while WASM is relatively new, it has developed leaps and bounds. A significa
 
 Autodesk has launched a web-based AutoCAD using WASM, which shows how capable WASM is.
 
-# WAVM
+## WebAssembly VM
 
 Let's try and understand WAVM a bit more. It is a stack-based virtual machine.
 Let us first understand what a stack-based VM is.
@@ -95,7 +97,7 @@ Now you may have heard that every executable has a stack and heap memory. DO NOT
 
 That stack holds frames (see diagram above). Each frame corresponds to a function, and inside each frame, you have your variables etc. which correspond to that function. Those variables are mostly ordered as they are initialised in the code and not as a stack from which the instructions can pop.
 
-# Sandboxing
+## Sandboxing
 
 As mentioned before, WASM takes the idea of zero trust and minimum privilege to a new level.
 How does it do that?
