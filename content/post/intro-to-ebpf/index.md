@@ -43,7 +43,9 @@ The eBPF functionality was first introduced in the Linux kernel v3.18. Since the
 
 ## Hello World!
 
-You can use the interactive example below, or continue reading on how to set this up on your own machine!
+You can use the interactive example below, or continue reading on how to set this up on your own machine! 
+
+_Note: If you are unable to use the embedded scenario, you can head on to [KillerCoda](https://killercoda.com/rutvora/course/eBPF/hello_world_python) in a new tab_
 
 <iframe src="https://killercoda.com/rutvora/course/eBPF/hello_world_python" width="100%" height="790px" frameBorder="0" style="border: 0;"></iframe><br>Brought to you by <a href="" target="_blank">KillerCoda Development Environment</a>
 
