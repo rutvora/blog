@@ -43,6 +43,12 @@ The eBPF functionality was first introduced in the Linux kernel v3.18. Since the
 
 ## Hello World!
 
+You can use the interactive example below, or continue reading on how to set this up on your own machine! 
+
+_Note: If you are unable to use the embedded scenario, you can head on to [KillerCoda](https://killercoda.com/rutvora/course/eBPF/hello_world_python) in a new tab_
+
+<iframe src="https://killercoda.com/rutvora/course/eBPF/hello_world_python" width="100%" height="790px" frameBorder="0" style="border: 0;"></iframe><br>Brought to you by <a href="" target="_blank">KillerCoda Development Environment</a>
+
 Let us walk through a Hello World program with eBPF. As eBPF is a Linux functionality, the first thing you need is a Linux Machine. Don't worry if you are on Windows/Mac, though. You can use Multipass (WSL does not support this!). Windows Home users need VirtualBox alongside Multipass, but Mac users do not require it. After the installation in either OS, use the following code in "cmd" or "Terminal".
 
 ```bash
