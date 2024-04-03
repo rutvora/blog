@@ -140,7 +140,7 @@ This timer is also available on all x86 (Intel and AMD) machines. It is similar 
 
 This instruction is exclusively available on AMD. While AMD also supports RDTSC(P) instructions, the hardware updates the corresponding counters with the frequency of the Crystal Clock, instead of the base clock. The crystal clock is ~100MHz, as opposed to the base clock of 2-5GHz. As a result, executing RDTSC on AMD machines will result in a time difference of a multiple of $ base_clock/crystal_clock $ (the counter is updated by this ratio at every tick of the crystal clock). RDPRU, on the other hand uses a different counter, which is updated at the base clock frequency, making it more accurate!
 
-**[mrs %0, cntvct](https://developer.arm.com/documentation/ddi0601/2022-09/AArch64-Registers/CNTVCT-EL0--Counter-timer-Virtual-Count-register?lang=en)**
+**[MRS %0, CNTVCT](https://developer.arm.com/documentation/ddi0601/2022-09/AArch64-Registers/CNTVCT-EL0--Counter-timer-Virtual-Count-register?lang=en)**
 
 This instruction is a counterpart of the RDTSC instruction, but for ARM64 machines. It is not serializing and needs to be paired with some [serialization](https://developer.arm.com/documentation/dui0802/b/A32-and-T32-Instructions/DMB--DSB--and-ISB) to ensure proper timing measurements. However, this may be updated [less frequently](https://developer.arm.com/documentation/102379/0103/What-is-the-Generic-Timer-?lang=en) than the RDTSC counterparts, reducing the observation granularity. 
 
